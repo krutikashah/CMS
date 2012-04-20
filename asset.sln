@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "asset", ".", "{65222319-3C2B-4275-B6C8-BDE51FBDEB91}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/asset"
+		Debug.AspNetCompiler.PhysicalPath = "F:\work\Hemant\Projects\29th_March\asset\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\asset\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/asset"
+		Release.AspNetCompiler.PhysicalPath = "F:\work\Hemant\Projects\29th_March\asset\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\asset\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3047"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65222319-3C2B-4275-B6C8-BDE51FBDEB91}.Debug|.NET.ActiveCfg = Debug|.NET
+		{65222319-3C2B-4275-B6C8-BDE51FBDEB91}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

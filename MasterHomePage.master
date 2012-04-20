@@ -1,0 +1,207 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterHomePage.master.cs" Inherits="MasterHomePage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    <link href="HomePage.css" rel="Stylesheet" type="text/css" />
+    
+    
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+   
+</head>
+<body class="body">
+    <form id="form1" runat="server" target ="_top">
+  
+   <div class="bg2_body height_100" align="center">
+<table border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr><td class="row_1">
+            <table class="width_table" align="center" border="0" cellpadding="0" cellspacing="0">
+                <tbody><tr><td>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                    	<tbody><tr>
+                        	<td class="logo"><a href="http://osc.template-help.com/osc_27981/index.php">
+                                <img src="images/CmsLogo3.png" alt="logo" style="float:left; padding-top:34px;" 
+                                    border="0" height="59px" width="260px" /><a href="http://www.iflcm.com/"><img src="images/iflcm1.png" alt="logo" style="float:right; padding-top:5px;" border="0" height="126px" width="241px" </a></a></td>
+                            
+                        </tr>
+                    </tbody></table>
+                </td></tr>
+                <tr><td class="menu" style="background-color:#5f7ac7; float:left; width:0px;">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tbody><tr>
+            
+
+                    <td id="m2" onmouseout="this.id='m2';" onmouseover="this.id='over_m2';" onclick="document.location='empviewcomp.aspx'">My Complain </td>
+                    <td class="menu_separator"><img src="images/spacer.gif" alt="" border="0" height="1" width="1"></td>
+                    <td id="m2" onmouseout="this.id='m2';" onmouseover="this.id='over_m2';" onclick="document.location='escalatecomp.aspx'">Existing Complain</td>
+                    <td class="menu_separator"><img src="images/spacer.gif" alt="" border="0" height="1" width="1"></td>
+                    <td id="m2" onmouseout="this.id='m3';" onmouseover="this.id='over_m3';" onclick="document.location='report.aspx'">
+                        Complain Report</td>
+                         <td id="m2" onmouseout="this.id='m3';" onmouseover="this.id='over_m3';" onclick="document.location='viewprofile.aspx'">
+                        My Profile</td>
+                    
+                    <td id="m3" onmouseout="this.id='m3';" onmouseover="this.id='over_m3';" onclick="document.location='#'">About Us</td>
+                    
+                   </tr>
+                            </tbody></table>
+                      
+                </td></tr>
+             
+                <tr><td class="in">
+                <div><asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server" Visible="true " >
+                           
+                
+                    </asp:ContentPlaceHolder>
+                    <%--<strong class="strong"><a href="http://www.icaps.in/Final/updclientcont.aspx">
+                &nbsp;<% if (Request.QueryString["page"] == null) Response.Write(""); else Response.Write("Update"); %>
+                <% if (Request.QueryString["pagee"] == null) Response.Write(""); else Response.Write("Update"); ;%>
+                </a></strong>|
+                <strong><a href="http://www.icaps.in/Final/updclietndet.aspx">
+                <% if (Request.QueryString["page"] == null) Response.Write(""); else Response.Write("Edit");  %>
+                <% if (Request.QueryString["pagee"] == null) Response.Write(""); else Response.Write("Edit");  %>
+                </a></strong>|
+                <strong><a href="#">Log&nbsp;In</a></strong>--%>
+                    
+             &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;     <asp:LinkButton ID="LinkButton1" runat="server" Text="Logout" CausesValidation="false" 
+                        onclick="LinkButton1_Click">Logout</asp:LinkButton></div></td></tr>
+            </tbody></table>
+    </td></tr>
+	<tr><td class="row_2">
+            <table class="width_table bg_table height_100" align="center" border="0" cellpadding="0" cellspacing="0">
+    			<tbody><tr><td><!-- header_eof //-->
+
+<!-- body //-->
+<table class="main_table" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+    <td class="box_width_td_left"><table class="box_width_left" border="0" cellpadding="0" cellspacing="0">
+<!-- left_navigation //-->
+<!-- search //-->
+          <tbody><tr>
+            <td class="search">
+                &nbsp;</td>
+          </tr>
+<!-- search_eof //-->
+<!-- categories //-->
+          <tr>
+            <td class="categories">
+<table class="infoBoxHeading2_table" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td class="td">
+					<div class="div">
+						<table class="table" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr><td class="infoBoxHeading2_td">Manage</td></tr>
+						</tbody></table>
+					</div></td>
+  </tr>
+</tbody></table>
+<table class="infoBox2_table" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td class="infoBox2_td"><table class="infoBoxContents2_table" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td class="boxText"><ul class="ul"><li class="bg_list_un"><a class="bg_list_un" href="insclientdet.aspx">Clients</a></li>
+   
+   
+    <li class="bg_list"><a href="inseqpdetails.aspx">Equipments</a></li>
+    <li class="bg_list"><a href="ins3vendordet.aspx">Vendors</a></li>
+    
+    <li class="bg_list"><a href="insclientcontactdet.aspx">Contacts</a></li><li class="bg_list">
+                                                                                                               <a href="complainfrm.aspx">Complain Form</a></li><li class="bg_list"><a href="insempdetails.aspx">Employee </a></li><li class="bg_list"><a href="selectcontrols.aspx ">Add Customized controls</a></li></ul></td>
+  </tr>
+</tbody></table>
+</td>
+  </tr>
+</tbody></table>
+            </td>
+          </tr>
+<!-- categories_eof //-->
+<!-- best_sellers //-->
+          <tr>
+            <td valign="top">
+<table class="infoBoxHeading_table" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td class="td">
+					<div class="div">
+						<table class="table" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr><td class="infoBoxHeading_td">Charts</td></tr>
+						</tbody></table>
+					</div></td>
+  </tr>
+</tbody></table>
+	
+
+					
+<table class="infoBox2_table" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td class="infoBox2_td"><table class="infoBoxContents2_table" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td class="boxText">
+    <ul class="bestsellers"><li class="bg_list2_un"><a href="chartcomp.aspx"><font>By Complaint Type</font></a></li>
+        </ul>
+       
+            <ul class="bestsellers">     
+    <li class="bg_list2"><a href ="chartemp.aspx" ><font>By Employee</font></a></li>
+    </ul> 
+ 
+       <ul class="bestsellers">
+    <li class="bg_list2"><a href="chartdate.aspx" ><font>By Date</font></a></li></ul>
+   
+       <ul class="bestsellers">
+    <li class="bg_list2"><a href="chartprobtype.aspx" ><font>By Probtype</font></a></li></ul>
+      
+   
+       <ul class="bestsellers">                                                                                                    
+    <li class="bg_list2"><a href="chartsatisfaction.aspx" ><font>By Customer Satisfaction</font></a></li></ul></td>
+  
+  </tr>
+</tbody></table>
+</td>
+  </tr>
+</tbody></table>
+            </td>
+          </tr>
+<!-- best_sellers_eof //-->
+<!-- left_navigation_eof //-->
+    </tbody></table></td>
+<!-- body_text //-->
+
+     
+         <td class="content_width_td">
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         
+         </asp:ContentPlaceHolder>
+         </td>
+    
+	
+	
+<!-- body_text_eof //-->
+	
+  </tr>
+</tbody></table>
+<!-- body_eof //-->
+
+<!-- footer //-->
+                    
+                </td></tr>
+            </tbody></table>
+    </td></tr>
+	           </tbody></table>
+
+
+</div>
+  <table >
+  <tr><td style ="width :"480px" ></td>
+  <td>
+  <div class="row_4">
+   <div class="footer">
+   <div class="footertxt"></br>Copyright &copy; 2010 IFLCM &nbsp;&nbsp; <b><a href="#">Privacy Notice</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="#">Conditions of Use</a></b></div>
+   </div>
+   </div>&nbsp;</td><td style ="width :"480px" ></td></tr>
+           </table>  
+    </form>
+</body>
+</html>
